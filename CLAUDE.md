@@ -25,8 +25,8 @@ Built with **Next.js 16** (App Router), **Tailwind CSS v4**, and **Sanity CMS v3
 | Token | Hex | Usage |
 |---|---|---|
 | `cream` | `#FAF6F0` | Background |
-| `blush` | `#E8B4B8` | Primary accent, buttons |
-| `blush-dark` | `#C4878B` | Hover states, text accents |
+| `blush` | `#A8C4D8` | Primary accent, buttons |
+| `blush-dark` | `#6F9CB8` | Hover states, text accents |
 | `sage` | `#8FAF8C` | Secondary accent (therapy) |
 | `sage-dark` | `#6B8F68` | Hover states |
 | `teal` | `#7BA7A7` | Tertiary accent (educational services) |
