@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Lato } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BotanicalTreeSide from "@/components/BotanicalTreeSide";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -33,6 +34,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cormorant.variable} ${lato.variable}`}>
       <body className="min-h-screen flex flex-col antialiased">
+        {/* Site-wide botanical tree frame — grows from bottom corners on every page */}
+        <BotanicalTreeSide side="left" />
+        <BotanicalTreeSide side="right" />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

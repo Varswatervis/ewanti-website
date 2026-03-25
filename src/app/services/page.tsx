@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
 export const metadata: Metadata = {
@@ -64,9 +63,7 @@ export default function ServicesPage() {
 
       {/* Services grid */}
       <section className="relative bg-white py-16 md:py-24 overflow-hidden">
-        <BotanicalSideSprig side="left" />
-        <BotanicalSideSprig side="right" />
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {services.map((s) => (
               <Link

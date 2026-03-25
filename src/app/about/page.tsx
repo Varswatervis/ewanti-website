@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import LogoDivider from "@/components/LogoDivider";
-import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
 export const metadata: Metadata = {
@@ -95,9 +94,7 @@ export default function AboutPage() {
 
       {/* About content */}
       <section className="relative bg-white py-16 md:py-24 overflow-hidden">
-        <BotanicalSideSprig side="left" />
-        <BotanicalSideSprig side="right" />
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <LogoDivider className="mb-10" />
           <div className="prose-custom space-y-8">
             <div>
