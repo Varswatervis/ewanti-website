@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import BotanicalDivider from "@/components/BotanicalDivider";
+import WatercolourWash from "@/components/WatercolourWash";
+import FloralCorner from "@/components/FloralCorner";
 
 const services = [
   {
@@ -37,6 +39,9 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="relative bg-cream overflow-hidden">
+        <WatercolourWash id="home-hero" />
+        <FloralCorner position="top-right" size="lg" />
+        <FloralCorner position="bottom-left" size="md" />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 text-center md:text-left">
             <p className="text-sm font-body font-medium text-blush-dark tracking-widest uppercase mb-4">
@@ -109,7 +114,8 @@ export default function HomePage() {
       </section>
 
       {/* Services */}
-      <section className="bg-cream py-16 md:py-24">
+      <section className="relative bg-cream py-16 md:py-24 overflow-hidden">
+        <FloralCorner position="bottom-right" size="sm" />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <BotanicalDivider className="mb-10" />
           <div className="text-center mb-12">

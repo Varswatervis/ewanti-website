@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import BotanicalDivider from "@/components/BotanicalDivider";
+import FloralCorner from "@/components/FloralCorner";
 
 export const metadata: Metadata = {
   title: "Therapy",
@@ -82,7 +83,8 @@ export default function TherapyPage() {
       </section>
 
       {/* Intro */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="relative bg-white py-16 md:py-24 overflow-hidden">
+        <FloralCorner position="bottom-left" size="sm" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <BotanicalDivider className="mb-10" />
           <p className="font-body text-xl text-charcoal-light leading-relaxed mb-6">

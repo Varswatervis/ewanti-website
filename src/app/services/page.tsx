@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import WatercolourWash from "@/components/WatercolourWash";
+import FloralCorner from "@/components/FloralCorner";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -42,8 +44,11 @@ export default function ServicesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-cream py-20 md:py-28">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative bg-cream py-20 md:py-28 overflow-hidden">
+        <WatercolourWash id="services-hero" />
+        <FloralCorner position="top-right" size="md" />
+        <FloralCorner position="bottom-left" size="sm" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-sm font-body font-medium text-blush-dark tracking-widest uppercase mb-4">
             How I Can Help
           </p>
