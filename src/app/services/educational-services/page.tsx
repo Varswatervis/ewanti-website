@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import BlobShape from "@/components/BlobShape";
+import BotanicalDivider from "@/components/BotanicalDivider";
 
 export const metadata: Metadata = {
   title: "Educational Services",
@@ -74,8 +76,14 @@ export default function EducationalServicesPage() {
       </section>
 
       {/* Intro */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="relative bg-white py-16 md:py-24 overflow-hidden">
+        <BlobShape
+          variant="lime"
+          className="-top-8 -right-10 w-44 h-40 sm:w-56 sm:h-52 md:w-72 md:h-64"
+          opacity={0.15}
+        />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <BotanicalDivider className="mb-10" />
           <p className="font-body text-xl text-charcoal-light leading-relaxed">
             Education is about far more than grades — it is about growing into
             who you are, building confidence, and learning to love the process
@@ -87,7 +95,12 @@ export default function EducationalServicesPage() {
       </section>
 
       {/* Services */}
-      <section className="bg-cream py-16 md:py-24">
+      <section className="relative bg-cream py-16 md:py-24 overflow-hidden">
+        <BlobShape
+          variant="blue"
+          className="-bottom-8 -right-8 w-44 h-40 sm:w-56 sm:h-52 md:w-72 md:h-64"
+          opacity={0.13}
+        />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-4xl md:text-5xl text-charcoal font-light mb-10 text-center">
             What I Offer

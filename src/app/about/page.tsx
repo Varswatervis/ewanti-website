@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import BlobShape from "@/components/BlobShape";
+import BotanicalDivider from "@/components/BotanicalDivider";
 
 export const metadata: Metadata = {
   title: "Who I Am",
@@ -54,7 +56,17 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-cream py-20 md:py-28">
+      <section className="relative bg-cream py-20 md:py-28 overflow-hidden">
+        <BlobShape
+          variant="peach"
+          className="-top-8 -right-10 w-48 h-44 sm:w-60 sm:h-56 md:w-80 md:h-72"
+          opacity={0.15}
+        />
+        <BlobShape
+          variant="purple"
+          className="-bottom-10 -left-10 w-40 h-36 sm:w-52 sm:h-48 md:w-64 md:h-60"
+          opacity={0.12}
+        />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-14">
             <div className="flex-shrink-0">
@@ -91,6 +103,7 @@ export default function AboutPage() {
       {/* About content */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <BotanicalDivider className="mb-10" />
           <div className="prose-custom space-y-8">
             <div>
               <h2 className="font-heading text-3xl md:text-4xl text-charcoal font-light mb-5">
@@ -159,7 +172,12 @@ export default function AboutPage() {
       </section>
 
       {/* Qualifications & Registrations */}
-      <section className="bg-cream py-16 md:py-24">
+      <section className="relative bg-cream py-16 md:py-24 overflow-hidden">
+        <BlobShape
+          variant="lime"
+          className="-bottom-10 -right-8 w-44 h-40 sm:w-56 sm:h-52 md:w-72 md:h-64"
+          opacity={0.13}
+        />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Qualifications */}

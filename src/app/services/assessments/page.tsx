@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import BlobShape from "@/components/BlobShape";
+import BotanicalDivider from "@/components/BotanicalDivider";
 
 export const metadata: Metadata = {
   title: "Assessments",
@@ -84,8 +86,14 @@ export default function AssessmentsPage() {
       </section>
 
       {/* Intro */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="relative bg-white py-16 md:py-24 overflow-hidden">
+        <BlobShape
+          variant="blue"
+          className="-bottom-10 -left-10 w-44 h-40 sm:w-56 sm:h-52 md:w-72 md:h-64"
+          opacity={0.15}
+        />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <BotanicalDivider className="mb-10" />
           <p className="font-body text-xl text-charcoal-light leading-relaxed">
             A thorough, evidence-based assessment helps make sense of a
             person's unique strengths and challenges. Every assessment is
@@ -96,7 +104,12 @@ export default function AssessmentsPage() {
       </section>
 
       {/* Assessment types */}
-      <section className="bg-cream py-16 md:py-20">
+      <section className="relative bg-cream py-16 md:py-20 overflow-hidden">
+        <BlobShape
+          variant="peach"
+          className="-top-8 -right-10 w-44 h-40 sm:w-56 sm:h-52 md:w-72 md:h-64"
+          opacity={0.13}
+        />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-4xl md:text-5xl text-charcoal font-light mb-10 text-center">
             Types of Assessments

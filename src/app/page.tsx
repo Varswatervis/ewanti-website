@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import BlobShape from "@/components/BlobShape";
+import BotanicalDivider from "@/components/BotanicalDivider";
 
 const services = [
   {
@@ -36,10 +38,17 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="relative bg-cream overflow-hidden">
-        <div className="absolute inset-0 opacity-5 pointer-events-none">
-          <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-blush blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-sage blur-3xl" />
-        </div>
+        {/* Decorative blobs from logo palette */}
+        <BlobShape
+          variant="peach"
+          className="-top-10 -right-14 w-56 h-52 sm:w-72 sm:h-64 md:w-96 md:h-80"
+          opacity={0.16}
+        />
+        <BlobShape
+          variant="lime"
+          className="-bottom-10 -left-12 w-44 h-40 sm:w-56 sm:h-52 md:w-72 md:h-64"
+          opacity={0.13}
+        />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 text-center md:text-left">
             <p className="text-sm font-body font-medium text-blush-dark tracking-widest uppercase mb-4">
@@ -85,8 +94,14 @@ export default function HomePage() {
       </section>
 
       {/* Short intro */}
-      <section className="bg-white py-16 md:py-20">
+      <section className="relative bg-white py-16 md:py-20 overflow-hidden">
+        <BlobShape
+          variant="purple"
+          className="-bottom-12 -right-10 w-44 h-40 sm:w-56 sm:h-52 md:w-64 md:h-60"
+          opacity={0.14}
+        />
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <BotanicalDivider className="mb-8" />
           <h2 className="font-heading text-3xl md:text-4xl text-charcoal font-light mb-6">
             A safe space to be seen, heard, and understood
           </h2>
@@ -111,8 +126,14 @@ export default function HomePage() {
       </section>
 
       {/* Services */}
-      <section className="bg-cream py-16 md:py-24">
+      <section className="relative bg-cream py-16 md:py-24 overflow-hidden">
+        <BlobShape
+          variant="rose"
+          className="-top-10 -left-10 w-40 h-36 sm:w-52 sm:h-48 md:w-64 md:h-60"
+          opacity={0.13}
+        />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <BotanicalDivider className="mb-10" />
           <div className="text-center mb-12">
             <h2 className="font-heading text-4xl md:text-5xl text-charcoal font-light mb-4">
               How I can help
