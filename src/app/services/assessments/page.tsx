@@ -22,7 +22,7 @@ const assessmentTypes = [
   {
     title: "Career assessments:",
     description:
-      "Explore strengths, interests, and personality traits to support meaningful career decisions, study choices, and future planning.",
+      "Explore strengths, interests, and personality traits to support meaningful career decisions, study choices, or career transitions.",
   },
   {
     title: "Subject Choice Assessment (Grades 10–12)",

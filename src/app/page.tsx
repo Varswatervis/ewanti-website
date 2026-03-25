@@ -53,8 +53,8 @@ export default function HomePage() {
             </h1>
             <p className="font-body text-lg text-charcoal-light leading-relaxed max-w-xl mx-auto md:mx-0 mb-10">
               Holistic, individualised psychological support for children,
-              adolescents, adults, and families — grounded in warmth, integrity,
-              and care.
+              adolescents, adults, and families — grounded in client-centred
+              and trauma-informed care.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link
@@ -92,12 +92,14 @@ export default function HomePage() {
           </h2>
           <p className="font-body text-charcoal-light text-lg leading-relaxed">
             I am Ewanti Drinkwater, a registered Educational Psychologist based
-            in South Africa. My work is holistic and deeply personalised — I
-            walk alongside individuals and families navigating trauma, learning
-            differences, emotional difficulties, and life transitions. Whether
-            you are seeking clarity through an assessment, healing through
-            therapy, or practical strategies for learning and growth, I am here
-            to help.
+            in South Africa. I am passionate about helping people heal, discover
+            who they are, and become who they are meant to be. My work supports
+            individuals and families navigating trauma, learning differences,
+            emotional challenges, and life transitions. I help clients find
+            their voice, build confidence and resilience, and recognise just how
+            capable they truly are. Whether you are seeking clarity through an
+            assessment, healing through therapy, or practical strategies for
+            learning and growth, I am here to help.
           </p>
           <Link
             href="/about"

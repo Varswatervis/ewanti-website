@@ -78,7 +78,7 @@ export default function AboutPage() {
               </h1>
               <p className="font-body text-xl text-charcoal-light leading-relaxed max-w-xl">
                 A warm, holistic, and client-centred approach to psychological
-                support for individuals, families, and educators.
+                support for individuals, families, and educational communities.
               </p>
               <p className="font-body text-sm text-charcoal-light mt-3 tracking-wide">
                 PS0165964 | PR1319612
@@ -97,17 +97,19 @@ export default function AboutPage() {
                 A safe space to be seen, heard, and understood
               </h2>
               <p className="font-body text-charcoal-light text-lg leading-relaxed">
-                I am Ewanti Drinkwater, a registered Educational Psychologist
-                based in South Africa. I am passionate about holistic,
-                client-centred, and trauma-informed care. I work with children,
-                adolescents, and adults, as well as with parents, families, and
-                educators. My work is holistic, client-centred, and
+                I am a registered Educational Psychologist working with
+                children, adolescents, and adults. I also work closely with
+                families and schools, recognising the important role that
+                relationships and context play in each person&apos;s wellbeing
+                and development. My work is holistic, client-centred, and
                 trauma-informed. I believe that growth begins where you feel
                 safe enough to be yourself. I meet each person exactly where
-                they are, with compassion, curiosity, and respect. I believe
-                that every person is capable of becoming the best version of
-                themselves. I strive to foster resilience, offer compassion, and
-                provide a safe and supportive space for meaningful growth.
+                they are, with compassion, curiosity, and respect, seeking to
+                understand their unique needs and providing support that is
+                practical, relevant, and tailored to them. I believe that every
+                person is capable of becoming the best version of themselves. I
+                strive to foster resilience, offer compassion, and provide a
+                safe, supportive space for growth.
               </p>
             </div>
 
