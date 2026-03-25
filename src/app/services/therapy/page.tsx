@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import BotanicalDivider from "@/components/BotanicalDivider";
+import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
 export const metadata: Metadata = {
@@ -103,7 +104,8 @@ export default function TherapyPage() {
       </section>
 
       {/* Who I work with */}
-      <section className="bg-cream py-14">
+      <section className="relative bg-cream py-14 overflow-hidden">
+        <BotanicalSideSprig side="left" />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">

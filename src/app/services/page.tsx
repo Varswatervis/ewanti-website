@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import WatercolourWash from "@/components/WatercolourWash";
+import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
 export const metadata: Metadata = {
@@ -45,10 +45,9 @@ export default function ServicesPage() {
     <>
       {/* Hero */}
       <section className="relative bg-cream py-20 md:py-28 overflow-hidden">
-        <WatercolourWash id="services-hero" />
         <FloralCorner position="top-right" size="md" />
         <FloralCorner position="bottom-left" size="sm" />
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-sm font-body font-medium text-blush-dark tracking-widest uppercase mb-4">
             How I Can Help
           </p>
@@ -64,7 +63,9 @@ export default function ServicesPage() {
       </section>
 
       {/* Services grid */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="relative bg-white py-16 md:py-24 overflow-hidden">
+        <BotanicalSideSprig side="left" />
+        <BotanicalSideSprig side="right" />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {services.map((s) => (
@@ -83,9 +84,18 @@ export default function ServicesPage() {
                   />
                 </div>
                 <div className="p-7">
-                  <h2 className="font-heading text-2xl text-charcoal font-medium mb-3">
-                    {s.title}
-                  </h2>
+                  <div className="flex items-start gap-2 mb-3">
+                    {/* Botanical leaf mark */}
+                    <svg viewBox="0 0 12 18" className="w-2.5 h-3.5 flex-shrink-0 opacity-50 mt-1.5" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M6,17 C6,13 6,9 6,4" stroke="#9C8E80" strokeWidth="0.9" strokeLinecap="round"/>
+                      <path d="M6,11 Q1,8 2,5 Q5,7 6,11Z" fill="#9C8E80" fillOpacity="0.62"/>
+                      <path d="M6,9 Q11,6 10,3 Q7,5 6,9Z" fill="#9C8E80" fillOpacity="0.62"/>
+                      <circle cx="6" cy="2.5" r="1.4" fill="#9C8E80" fillOpacity="0.78"/>
+                    </svg>
+                    <h2 className="font-heading text-2xl text-charcoal font-medium">
+                      {s.title}
+                    </h2>
+                  </div>
                   <p className="font-body text-charcoal-light text-sm leading-relaxed mb-5">
                     {s.description}
                   </p>

@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import BotanicalDivider from "@/components/BotanicalDivider";
-import WatercolourWash from "@/components/WatercolourWash";
+import BotanicalTaglineFrame from "@/components/BotanicalTaglineFrame";
+import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
 const services = [
@@ -39,7 +40,6 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="relative bg-cream overflow-hidden">
-        <WatercolourWash id="home-hero" />
         <FloralCorner position="top-right" size="lg" />
         <FloralCorner position="bottom-left" size="md" />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col md:flex-row items-center gap-12">
@@ -47,6 +47,7 @@ export default function HomePage() {
             <p className="text-sm font-body font-medium text-blush-dark tracking-widest uppercase mb-4">
               Registered Educational Psychologist
             </p>
+            <BotanicalTaglineFrame />
             <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-light text-charcoal leading-tight mb-6">
               Holding space for you,{" "}
               <em className="not-italic text-blush-dark">
@@ -87,7 +88,8 @@ export default function HomePage() {
       </section>
 
       {/* Short intro */}
-      <section className="bg-white py-16 md:py-20">
+      <section className="relative bg-white py-16 md:py-20 overflow-hidden">
+        <BotanicalSideSprig side="left" />
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <BotanicalDivider className="mb-8" />
           <h2 className="font-heading text-3xl md:text-4xl text-charcoal font-light mb-6">
@@ -144,9 +146,18 @@ export default function HomePage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="font-heading text-2xl text-charcoal font-medium mb-3">
-                    {service.title}
-                  </h3>
+                  <div className="flex items-start gap-2 mb-3">
+                    {/* Botanical leaf mark */}
+                    <svg viewBox="0 0 12 18" className="w-2.5 h-3.5 flex-shrink-0 opacity-50 mt-1.5" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M6,17 C6,13 6,9 6,4" stroke="#9C8E80" strokeWidth="0.9" strokeLinecap="round"/>
+                      <path d="M6,11 Q1,8 2,5 Q5,7 6,11Z" fill="#9C8E80" fillOpacity="0.62"/>
+                      <path d="M6,9 Q11,6 10,3 Q7,5 6,9Z" fill="#9C8E80" fillOpacity="0.62"/>
+                      <circle cx="6" cy="2.5" r="1.4" fill="#9C8E80" fillOpacity="0.78"/>
+                    </svg>
+                    <h3 className="font-heading text-2xl text-charcoal font-medium">
+                      {service.title}
+                    </h3>
+                  </div>
                   <p className="font-body text-charcoal-light text-sm leading-relaxed mb-4">
                     {service.description}
                   </p>

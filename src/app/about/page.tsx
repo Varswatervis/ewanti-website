@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import BotanicalDivider from "@/components/BotanicalDivider";
-import WatercolourWash from "@/components/WatercolourWash";
+import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
 export const metadata: Metadata = {
@@ -58,10 +58,9 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <section className="relative bg-cream py-20 md:py-28 overflow-hidden">
-        <WatercolourWash id="about-hero" />
         <FloralCorner position="top-right" size="lg" />
         <FloralCorner position="bottom-left" size="sm" />
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-14">
             <div className="flex-shrink-0">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blush/30 shadow-xl">
@@ -95,7 +94,9 @@ export default function AboutPage() {
       </section>
 
       {/* About content */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="relative bg-white py-16 md:py-24 overflow-hidden">
+        <BotanicalSideSprig side="left" />
+        <BotanicalSideSprig side="right" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <BotanicalDivider className="mb-10" />
           <div className="prose-custom space-y-8">

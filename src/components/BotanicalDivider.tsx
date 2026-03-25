@@ -32,6 +32,11 @@ export default function BotanicalDivider({
           stroke={c} strokeWidth="0.75" strokeLinecap="round"
         />
 
+        {/* Berry cluster — left rule, just before botanical section */}
+        <circle cx="172" cy="36" r="1.4" fill={c} fillOpacity="0.52" />
+        <circle cx="177" cy="34" r="1.2" fill={c} fillOpacity="0.46" />
+        <circle cx="182" cy="37" r="1.1" fill={c} fillOpacity="0.40" />
+
         {/* Left bridging dot */}
         <circle cx="209" cy="38" r="1.4" fill={c} />
 
@@ -40,6 +45,8 @@ export default function BotanicalDivider({
           d="M215,38 Q210,27 217,25 Q219,31 215,38Z"
           fill={c} fillOpacity="0.55"
         />
+        {/* Tiny flower bud at the tip of leaf 1 */}
+        <circle cx="212" cy="24" r="1.3" fill={c} fillOpacity="0.62" />
         <path
           d="M222,38 Q224,26 229,28 Q227,33 222,38Z"
           fill={c} fillOpacity="0.55"
@@ -78,6 +85,9 @@ export default function BotanicalDivider({
           stroke={c} strokeWidth="0.9" strokeLinecap="round"
         />
 
+        {/* Tiny seed/bud on right curved stem (midpoint ~252,31) */}
+        <circle cx="252" cy="30" r="1.3" fill={c} fillOpacity="0.55" />
+
         {/* Right sprig — two small leaves */}
         <path
           d="M258,38 Q256,26 262,25 Q263,31 258,38Z"
@@ -90,6 +100,11 @@ export default function BotanicalDivider({
 
         {/* Right bridging dot */}
         <circle cx="271" cy="38" r="1.4" fill={c} />
+
+        {/* Berry cluster — right rule, just after botanical section */}
+        <circle cx="299" cy="37" r="1.1" fill={c} fillOpacity="0.40" />
+        <circle cx="304" cy="34" r="1.2" fill={c} fillOpacity="0.46" />
+        <circle cx="309" cy="36" r="1.4" fill={c} fillOpacity="0.52" />
 
         {/* ── Right horizontal rule ── */}
         <line
