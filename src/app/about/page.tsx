@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import BotanicalDivider from "@/components/BotanicalDivider";
+import LogoDivider from "@/components/LogoDivider";
 import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
@@ -98,7 +98,7 @@ export default function AboutPage() {
         <BotanicalSideSprig side="left" />
         <BotanicalSideSprig side="right" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <BotanicalDivider className="mb-10" />
+          <LogoDivider className="mb-10" />
           <div className="prose-custom space-y-8">
             <div>
               <h2 className="font-heading text-3xl md:text-4xl text-charcoal font-light mb-5">

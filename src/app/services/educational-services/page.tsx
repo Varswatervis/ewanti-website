@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import BotanicalDivider from "@/components/BotanicalDivider";
+import LogoDivider from "@/components/LogoDivider";
 import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
@@ -80,7 +80,7 @@ export default function EducationalServicesPage() {
       <section className="relative bg-white py-16 md:py-24 overflow-hidden">
         <FloralCorner position="top-right" size="sm" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <BotanicalDivider className="mb-10" />
+          <LogoDivider className="mb-10" />
           <p className="font-body text-xl text-charcoal-light leading-relaxed">
             Education is about far more than grades — it is about growing into
             who you are, building confidence, and learning to love the process

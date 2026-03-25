@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import BotanicalDivider from "@/components/BotanicalDivider";
-import BotanicalTaglineFrame from "@/components/BotanicalTaglineFrame";
+import LogoDivider from "@/components/LogoDivider";
 import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
@@ -47,7 +46,6 @@ export default function HomePage() {
             <p className="text-sm font-body font-medium text-blush-dark tracking-widest uppercase mb-4">
               Registered Educational Psychologist
             </p>
-            <BotanicalTaglineFrame />
             <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-light text-charcoal leading-tight mb-6">
               Holding space for you,{" "}
               <em className="not-italic text-blush-dark">
@@ -91,7 +89,7 @@ export default function HomePage() {
       <section className="relative bg-white py-16 md:py-20 overflow-hidden">
         <BotanicalSideSprig side="left" />
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <BotanicalDivider className="mb-8" />
+          <LogoDivider className="mb-8" />
           <h2 className="font-heading text-3xl md:text-4xl text-charcoal font-light mb-6">
             A safe space to be seen, heard, and understood
           </h2>
@@ -119,7 +117,7 @@ export default function HomePage() {
       <section className="relative bg-cream py-16 md:py-24 overflow-hidden">
         <FloralCorner position="bottom-right" size="sm" />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <BotanicalDivider className="mb-10" />
+          <LogoDivider className="mb-10" />
           <div className="text-center mb-12">
             <h2 className="font-heading text-4xl md:text-5xl text-charcoal font-light mb-4">
               How I can help
