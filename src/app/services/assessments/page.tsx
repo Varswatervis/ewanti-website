@@ -12,17 +12,17 @@ const assessmentTypes = [
   {
     title: "Psycho-Educational Assessment",
     description:
-      "A comprehensive evaluation of cognitive, academic, and developmental functioning to identify strengths, challenges, and learning needs. Supports school accommodations and personalised intervention planning.",
+      "A comprehensive evaluation of cognitive, emotional, and developmental functioning to identify strengths and areas of need. This assessment also supports school accommodations and personalised intervention planning.",
   },
   {
     title: "Socio-Emotional Assessment",
     description:
-      "An in-depth look at emotional wellbeing, social functioning, behaviour, and mental health to guide therapeutic support and intervention.",
+      "An in-depth evaluation of emotional wellbeing, social functioning, and behaviour to provide insight and guide therapeutic or intervention planning.",
   },
   {
-    title: "Career Assessment",
+    title: "Career assessments:",
     description:
-      "Explore strengths, interests, and personality traits to support meaningful career and study direction decisions.",
+      "Explore strengths, interests, and personality traits to support meaningful career decisions, study choices, and future planning.",
   },
   {
     title: "Subject Choice Assessment (Grades 10–12)",
@@ -87,10 +87,10 @@ export default function AssessmentsPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="font-body text-xl text-charcoal-light leading-relaxed">
-            A thorough, evidence-based assessment offers more than a label — it
-            provides clarity, understanding, and a clear path forward.
-            Assessments are conducted with care and respect, ensuring every
-            individual feels safe, seen, and valued throughout the process.
+            A thorough, evidence-based assessment helps make sense of a
+            person's unique strengths and challenges. Every assessment is
+            conducted with care and respect, ensuring every individual feels
+            safe, seen, and valued throughout the process.
           </p>
         </div>
       </section>

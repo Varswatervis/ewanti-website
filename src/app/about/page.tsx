@@ -19,7 +19,7 @@ const qualifications = [
   },
   {
     title: "Master's in Educational Psychology",
-    detail: "2023–2024",
+    detail: "University of Johannesburg, 2023–2024",
   },
   {
     title: "Irlen Screener Certificate",
@@ -39,7 +39,7 @@ const registrations = [
 ];
 
 const areas = [
-  "Trauma and PTSD",
+  "Trauma",
   "Anxiety and mood difficulties",
   "Self-harm and suicidal ideation",
   "Attachment challenges",
@@ -77,8 +77,11 @@ export default function AboutPage() {
                 Ewanti Drinkwater
               </h1>
               <p className="font-body text-xl text-charcoal-light leading-relaxed max-w-xl">
-                A warm, holistic, and trauma-informed approach to psychological
-                support for individuals, families, and educational communities.
+                A warm, holistic, and client-centred approach to psychological
+                support for individuals, families, and educators.
+              </p>
+              <p className="font-body text-sm text-charcoal-light mt-3 tracking-wide">
+                PS0165964 | PR1319612
               </p>
             </div>
           </div>
@@ -91,26 +94,20 @@ export default function AboutPage() {
           <div className="prose-custom space-y-8">
             <div>
               <h2 className="font-heading text-3xl md:text-4xl text-charcoal font-light mb-5">
-                About My Work
+                A safe space to be seen, heard, and understood
               </h2>
-              <p className="font-body text-charcoal-light text-lg leading-relaxed mb-4">
-                I am a registered Educational Psychologist with a deep
-                commitment to holistic, individualised care. My work is
-                grounded in trauma-informed practice and inclusive education —
-                values that guide every interaction, assessment, and therapeutic
-                journey I undertake.
-              </p>
-              <p className="font-body text-charcoal-light text-lg leading-relaxed mb-4">
-                I work not only with individuals, but also with families,
-                schools, and the wider support systems around my clients. I
-                believe that lasting change happens within relationships, and
-                that the people and environments surrounding an individual play
-                a vital role in their growth and healing.
-              </p>
               <p className="font-body text-charcoal-light text-lg leading-relaxed">
-                My practice embraces children, adolescents, adults, parents, and
-                educators — meeting each person exactly where they are, with
-                compassion, curiosity, and respect.
+                I am Ewanti Drinkwater, a registered Educational Psychologist
+                based in South Africa. I am passionate about holistic,
+                client-centred, and trauma-informed care. I work with children,
+                adolescents, and adults, as well as with parents, families, and
+                educators. My work is holistic, client-centred, and
+                trauma-informed. I believe that growth begins where you feel
+                safe enough to be yourself. I meet each person exactly where
+                they are, with compassion, curiosity, and respect. I believe
+                that every person is capable of becoming the best version of
+                themselves. I strive to foster resilience, offer compassion, and
+                provide a safe and supportive space for meaningful growth.
               </p>
             </div>
 

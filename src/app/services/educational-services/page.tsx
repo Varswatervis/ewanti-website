@@ -10,16 +10,16 @@ export const metadata: Metadata = {
 
 const services = [
   {
-    title: "Parental Guidance and Support",
-    description:
-      "Equipping parents with practical strategies, psycho-education, and emotional support to navigate their child's learning and developmental needs confidently.",
-    icon: "🤝",
-  },
-  {
     title: "Study Skills Development",
     description:
       "Building effective learning habits, time management, note-taking, revision strategies, and exam techniques tailored to each individual learner.",
     icon: "📚",
+  },
+  {
+    title: "Parental Guidance and Support",
+    description:
+      "Equipping parents with practical strategies, psycho-education, and emotional support to navigate their child's learning and developmental needs confidently.",
+    icon: "🤝",
   },
   {
     title: "Learning and Academic Support",
@@ -28,9 +28,9 @@ const services = [
     icon: "✏️",
   },
   {
-    title: "Teacher Consultation",
+    title: "Teacher Training",
     description:
-      "Providing educators with practical guidance on supporting learners with diverse needs within the classroom — including recommendations from assessments and strategies for inclusive teaching.",
+      "Providing educators with training on a variety of topics to enhance their professional skills and support for learners.",
     icon: "🏫",
   },
   {
@@ -38,6 +38,12 @@ const services = [
     description:
       "Working directly with schools and support teams to develop individualised support plans, facilitate accommodation processes, and foster inclusive educational environments.",
     icon: "🌱",
+  },
+  {
+    title: "Psychoeducation",
+    description:
+      "Tailored guidance on psychological and emotional topics to support clients' understanding, resilience, and personal growth.",
+    icon: "💡",
   },
 ];
 
@@ -70,17 +76,12 @@ export default function EducationalServicesPage() {
       {/* Intro */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="font-body text-xl text-charcoal-light leading-relaxed mb-6">
+          <p className="font-body text-xl text-charcoal-light leading-relaxed">
             Education is about far more than grades — it is about growing into
             who you are, building confidence, and learning to love the process
             of discovery. My educational services are designed to support
             learners, parents, and educators in building the conditions for
             genuine growth.
-          </p>
-          <p className="font-body text-xl text-charcoal-light leading-relaxed">
-            I work extensively with specific learning disorders, ADHD, and
-            educational accommodations, and have deep experience navigating
-            the South African educational landscape.
           </p>
         </div>
       </section>
@@ -111,27 +112,64 @@ export default function EducationalServicesPage() {
       </section>
 
       {/* Who benefits */}
-      <section className="bg-teal/10 py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-heading text-3xl md:text-4xl text-charcoal font-light mb-6">
+      <section className="bg-teal/10 py-16 md:py-24">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="font-heading text-4xl md:text-5xl text-charcoal font-light mb-12 text-center">
             Who Can Benefit?
           </h2>
-          <div className="flex flex-wrap justify-center gap-3">
-            {[
-              "Learners with learning difficulties",
-              "Children with ADHD",
-              "Learners needing exam accommodations",
-              "Parents seeking guidance",
-              "Teachers supporting diverse classrooms",
-              "Schools developing inclusive practices",
-            ].map((item) => (
-              <span
-                key={item}
-                className="px-5 py-2 bg-white text-teal-dark font-body text-sm font-medium rounded-full border border-teal/20"
-              >
-                {item}
-              </span>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Children, Adolescents, and Adults */}
+            <div className="bg-white rounded-2xl p-7 border border-teal/20">
+              <h3 className="font-heading text-2xl text-charcoal font-medium mb-4">
+                Children, Adolescents, and Adults
+              </h3>
+              <ul className="space-y-3 font-body text-charcoal-light text-sm leading-relaxed">
+                <li className="flex items-start gap-2">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-teal flex-shrink-0" />
+                  Those seeking support with emotional wellbeing, social functioning, or learning challenges
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-teal flex-shrink-0" />
+                  Individuals looking to understand their strengths, challenges, and personal growth opportunities
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-teal flex-shrink-0" />
+                  Clients needing guidance for study skills, career decisions, or life transitions
+                </li>
+              </ul>
+            </div>
+            {/* Families */}
+            <div className="bg-white rounded-2xl p-7 border border-teal/20">
+              <h3 className="font-heading text-2xl text-charcoal font-medium mb-4">
+                Families
+              </h3>
+              <ul className="space-y-3 font-body text-charcoal-light text-sm leading-relaxed">
+                <li className="flex items-start gap-2">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-teal flex-shrink-0" />
+                  Parents and caregivers seeking strategies to support their child's development, learning, and emotional wellbeing
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-teal flex-shrink-0" />
+                  Families navigating complex challenges or transitions
+                </li>
+              </ul>
+            </div>
+            {/* Educators and Schools */}
+            <div className="bg-white rounded-2xl p-7 border border-teal/20">
+              <h3 className="font-heading text-2xl text-charcoal font-medium mb-4">
+                Educators and Schools
+              </h3>
+              <ul className="space-y-3 font-body text-charcoal-light text-sm leading-relaxed">
+                <li className="flex items-start gap-2">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-teal flex-shrink-0" />
+                  Teachers and school staff looking for practical strategies and training to support learners with diverse needs
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-teal flex-shrink-0" />
+                  Schools seeking guidance on creating inclusive, supportive, and effective learning environments
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

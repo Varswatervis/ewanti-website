@@ -46,15 +46,15 @@ export default function HomePage() {
               Registered Educational Psychologist
             </p>
             <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-light text-charcoal leading-tight mb-6">
-              Supporting growth,{" "}
+              Holding space for you,{" "}
               <em className="not-italic text-blush-dark">
-                one person at a time.
+                just as you are — a place for your story to be heard and understood.
               </em>
             </h1>
             <p className="font-body text-lg text-charcoal-light leading-relaxed max-w-xl mx-auto md:mx-0 mb-10">
               Holistic, individualised psychological support for children,
-              adolescents, adults, parents, and educators — grounded in
-              trauma-informed practice and inclusive education.
+              adolescents, adults, and families — grounded in warmth, integrity,
+              and care.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link
@@ -88,7 +88,7 @@ export default function HomePage() {
       <section className="bg-white py-16 md:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-heading text-3xl md:text-4xl text-charcoal font-light mb-6">
-            A warm, safe space for real change
+            A safe space to be seen, heard, and understood
           </h2>
           <p className="font-body text-charcoal-light text-lg leading-relaxed">
             I am Ewanti Drinkwater, a registered Educational Psychologist based

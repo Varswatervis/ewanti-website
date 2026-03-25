@@ -46,7 +46,20 @@ export default function ContactPage() {
                       Email
                     </p>
                     <p className="font-body text-charcoal-light text-sm">
-                      hello@ewantidrinkwater.co.za
+                      ewantidv@gmail.com
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-blush/20 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-lg">📞</span>
+                  </div>
+                  <div>
+                    <p className="font-body font-medium text-charcoal text-sm mb-1">
+                      Phone
+                    </p>
+                    <p className="font-body text-charcoal-light text-sm">
+                      076 355 0871
                     </p>
                   </div>
                 </div>
@@ -72,8 +85,7 @@ export default function ContactPage() {
                       Response Time
                     </p>
                     <p className="font-body text-charcoal-light text-sm">
-                      I aim to respond to all enquiries within 1–2 business
-                      days.
+                      All enquiries are responded to within 1–2 business days.
                     </p>
                   </div>
                 </div>
@@ -85,8 +97,9 @@ export default function ContactPage() {
                 </h3>
                 <p className="font-body text-charcoal-light text-sm leading-relaxed">
                   Ewanti Drinkwater is a registered Educational Psychologist
-                  with the Health Professions Council of South Africa (HPCSA)
-                  and registered with the Board of Healthcare Funders (BHF).
+                  with the Health Professions Council of South Africa,
+                  PS0165964, registered with the Board of Healthcare Funders
+                  (BHF), PR1319612.
                 </p>
               </div>
             </div>
