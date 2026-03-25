@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import BlobShape from "@/components/BlobShape";
 import BotanicalDivider from "@/components/BotanicalDivider";
 
 export const metadata: Metadata = {
@@ -83,12 +82,7 @@ export default function TherapyPage() {
       </section>
 
       {/* Intro */}
-      <section className="relative bg-white py-16 md:py-24 overflow-hidden">
-        <BlobShape
-          variant="purple"
-          className="-top-10 -right-10 w-48 h-44 sm:w-60 sm:h-56 md:w-80 md:h-72"
-          opacity={0.15}
-        />
+      <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <BotanicalDivider className="mb-10" />
           <p className="font-body text-xl text-charcoal-light leading-relaxed mb-6">
@@ -139,12 +133,7 @@ export default function TherapyPage() {
       </section>
 
       {/* Therapeutic approaches */}
-      <section className="relative bg-white py-16 md:py-24 overflow-hidden">
-        <BlobShape
-          variant="rose"
-          className="-bottom-10 -left-8 w-40 h-36 sm:w-52 sm:h-48 md:w-64 md:h-60"
-          opacity={0.13}
-        />
+      <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-4xl md:text-5xl text-charcoal font-light mb-10 text-center">
             Therapeutic Approaches
