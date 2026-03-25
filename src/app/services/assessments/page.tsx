@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import LogoDivider from "@/components/LogoDivider";
+import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
 export const metadata: Metadata = {
@@ -101,7 +102,8 @@ export default function AssessmentsPage() {
 
       {/* Assessment types */}
       <section className="relative bg-cream py-16 md:py-20 overflow-hidden">
-<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <BotanicalSideSprig side="right" />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-4xl md:text-5xl text-charcoal font-light mb-10 text-center">
             Types of Assessments
           </h2>

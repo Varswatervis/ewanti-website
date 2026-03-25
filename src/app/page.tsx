@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import LogoDivider from "@/components/LogoDivider";
+import BotanicalSideSprig from "@/components/BotanicalSideSprig";
 import FloralCorner from "@/components/FloralCorner";
 
 const services = [
@@ -86,7 +87,8 @@ export default function HomePage() {
 
       {/* Short intro */}
       <section className="relative bg-white py-16 md:py-20 overflow-hidden">
-<div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <BotanicalSideSprig side="left" />
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <LogoDivider className="mb-8" />
           <h2 className="font-heading text-3xl md:text-4xl text-charcoal font-light mb-6">
             A safe space to be seen, heard, and understood
