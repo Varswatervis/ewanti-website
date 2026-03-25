@@ -6,15 +6,17 @@ interface LogoDividerProps {
 
 export default function LogoDivider({ className = "" }: LogoDividerProps) {
   return (
-    <div className={`flex justify-center ${className}`}>
+    <div className={`flex items-center gap-4 ${className}`}>
+      <div className="flex-1 h-px bg-charcoal/15" />
       <Image
         src="/images/logo.png"
         alt=""
-        width={56}
-        height={56}
-        className="h-10 sm:h-11 md:h-14 w-auto opacity-[0.27]"
+        width={40}
+        height={40}
+        className="h-10 w-auto opacity-30 flex-shrink-0"
         aria-hidden="true"
       />
+      <div className="flex-1 h-px bg-charcoal/15" />
     </div>
   );
 }
