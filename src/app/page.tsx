@@ -49,7 +49,8 @@ export default function HomePage() {
             <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-light text-charcoal leading-tight mb-6">
               Holding space for you,{" "}
               <em className="not-italic">
-                just as you are — a place for your story to be heard and understood.
+                just as you are —{" "}
+                <span className="text-blush-dark">a place for your story to be heard and understood.</span>
               </em>
             </h1>
             <p className="font-body text-lg text-charcoal-light leading-relaxed max-w-xl mx-auto md:mx-0 mb-10">
