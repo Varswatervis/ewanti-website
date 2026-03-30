@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 const qualifications = [
   {
     title: "Bachelor of Education (Senior Phase and FET)",
-    detail: "Cum Laude",
+    detail: "Cum Laude — University of Pretoria, 2018–2021",
   },
   {
     title: "Honours in Educational Psychology",
-    detail: "Cum Laude — University of Pretoria (2022)",
+    detail: "Cum Laude — University of Pretoria, 2022",
   },
   {
     title: "Master's in Educational Psychology",
@@ -30,7 +30,7 @@ const qualifications = [
   },
   {
     title: "BWRT Level 1 Practitioner",
-    detail: "June 2025",
+    detail: "2025",
   },
 ];
 
@@ -51,6 +51,9 @@ const areas = [
   "Abuse",
   "Educational accommodations",
   "Learning diversity",
+  "Adjustment challenges",
+  "Bereavement",
+  "Self-esteem and identity development",
 ];
 
 export default function AboutPage() {
@@ -112,12 +115,13 @@ export default function AboutPage() {
                 and development. My work is holistic, client-centred, and
                 trauma-informed. I believe that growth begins where you feel
                 safe enough to be yourself. I meet each person exactly where
-                they are, with compassion, curiosity, and respect, seeking to
-                understand their unique needs and providing support that is
-                practical, relevant, and tailored to them. I believe that every
-                person is capable of becoming the best version of themselves. I
-                strive to foster resilience, offer compassion, and provide a
-                safe, supportive space for growth.
+                they are, with compassion, curiosity, empathy, unconditional
+                positive regard and respect, seeking to understand their unique
+                needs and providing support that is practical, relevant, and
+                tailored to them. I believe that every person is capable of
+                becoming the best version of themselves. I strive to foster
+                resilience, offer compassion, and provide a safe, supportive
+                space for growth.
               </p>
             </div>
 
@@ -127,7 +131,7 @@ export default function AboutPage() {
               </h2>
               <p className="font-body text-charcoal-light text-lg leading-relaxed mb-6">
                 My experience spans a wide range of needs and challenges,
-                including:
+                including, but are not limited to:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {areas.map((area) => (

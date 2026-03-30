@@ -15,7 +15,12 @@ const assessmentTypes = [
   {
     title: "Psycho-Educational Assessment",
     description:
-      "A comprehensive evaluation of cognitive, emotional, and developmental functioning to identify strengths and areas of need. This assessment also supports school accommodations and personalised intervention planning.",
+      "A comprehensive evaluation of cognitive, emotional, and developmental functioning to identify strengths and areas of need. This assessment informs personalised intervention planning and supports overall development and day-to-day functioning.",
+  },
+  {
+    title: "Psycho-Educational Assessment for Accommodations",
+    description:
+      "A comprehensive evaluation of cognitive, emotional, and developmental functioning to identify strengths and areas of need. This assessment also provides tailored recommendations for school-based accommodations and supports personalised intervention planning.",
   },
   {
     title: "Socio-Emotional Assessment",

@@ -21,8 +21,7 @@ export default function ContactPage() {
           </h1>
           <p className="font-body text-xl text-charcoal-light leading-relaxed max-w-2xl mx-auto">
             Whether you have a question, want to book a consultation, or simply
-            want to know more — I would love to hear from you. No question is
-            too small.
+            want to know more — I would love to hear from you.
           </p>
         </div>
       </section>

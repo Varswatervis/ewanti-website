@@ -47,6 +47,11 @@ const approaches = [
     description:
       "Brain Working Recursive Therapy — a structured, evidence-based technique for rapidly resolving anxiety, trauma responses, and unwanted patterns.",
   },
+  {
+    name: "Client-centred Therapy",
+    description:
+      "A humanistic therapeutic approach that emphasises empathy, unconditional positive regard, and authenticity. It enables clients to access their own internal resources, promoting insight, emotional regulation, and meaningful behavioural change.",
+  },
 ];
 
 const whoIWorkWith = [

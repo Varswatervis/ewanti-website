@@ -48,6 +48,12 @@ const services = [
       "Tailored guidance on psychological and emotional topics to support clients' understanding, resilience, and personal growth.",
     icon: "💡",
   },
+  {
+    title: "Workshops",
+    description:
+      "Interactive and informative workshops designed to support teachers, professionals, individuals, teenagers, and parents across a range of relevant topics. These sessions provide practical strategies, evidence-based insights, and tools to enhance emotional wellbeing, build resilience, improve communication, and support personal and professional growth.",
+    icon: "🎓",
+  },
 ];
 
 export default function EducationalServicesPage() {
