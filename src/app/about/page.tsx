@@ -154,10 +154,11 @@ export default function AboutPage() {
               </h2>
               <ul className="space-y-3 font-body text-charcoal-light text-lg">
                 {[
-                  "Individual psychotherapy",
-                  "Psycho-educational and developmental assessments",
+                  "Psychotherapy (children, adolescents, and adults)",
+                  "Assessments (psycho-educational, developmental, socio-emotional, school readiness, career, and subject choice)",
                   "Learning and study support",
                   "Parent and teacher consultation",
+                  "Workshops",
                 ].map((s) => (
                   <li key={s} className="flex items-start gap-3">
                     <span className="mt-2 w-2 h-2 rounded-full bg-sage flex-shrink-0" />

@@ -13,11 +13,6 @@ export const metadata: Metadata = {
 
 const approaches = [
   {
-    name: "Child-Centred Therapy",
-    description:
-      "Following the child's lead within a safe, supportive therapeutic space, building self-esteem and emotional regulation.",
-  },
-  {
     name: "Trauma-Informed Therapy",
     description:
       "Recognising and addressing the pervasive impact of trauma on the mind, body, and relationships.",

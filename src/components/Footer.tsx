@@ -26,8 +26,8 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-white/70 leading-relaxed">
-              Holistic, trauma-informed psychological support for children,
-              adolescents, adults, and families.
+              Holistic, client-centered trauma-informed psychological support
+              for children, adolescents, adults, and families.
             </p>
           </div>
 
@@ -63,10 +63,10 @@ export default function Footer() {
               Registrations
             </h4>
             <ul className="space-y-1 text-sm text-white/70">
-              <li>Registered Educational Psychologist (HPCSA)</li>
+              <li>Registered Educational Psychologist (HPCSA) — PS0165964</li>
               <li>BWRT Level 1 Practitioner</li>
               <li>Irlen Screener</li>
-              <li>Board of Healthcare Funders (BHF)</li>
+              <li>Board of Healthcare Funders (BHF) — PR1319612</li>
             </ul>
           </div>
         </div>
