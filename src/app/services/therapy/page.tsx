@@ -139,9 +139,14 @@ export default function TherapyPage() {
       {/* Therapeutic approaches */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-4xl md:text-5xl text-charcoal font-light mb-10 text-center">
+          <h2 className="font-heading text-4xl md:text-5xl text-charcoal font-light mb-6 text-center">
             Therapeutic Approaches
           </h2>
+          <p className="font-body text-charcoal-light text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10">
+            I draw on a range of evidence-informed therapeutic approaches,
+            tailored to meet each client&apos;s unique needs and goals. Some of
+            the approaches I use include:
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {approaches.map((a) => (
               <div
