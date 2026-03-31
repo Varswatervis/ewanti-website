@@ -44,16 +44,17 @@ const registrations = [
 const areas = [
   "Trauma",
   "Anxiety and mood difficulties",
-  "Self-harm and suicidal ideation",
+  "Self-harm",
   "Attachment challenges",
   "Specific learning disorders",
   "ADHD",
   "Abuse",
   "Educational accommodations",
-  "Learning diversity",
+  "Study skills and subject choice, career counselling",
   "Adjustment challenges",
   "Bereavement",
   "Self-esteem and identity development",
+  "Assessments",
 ];
 
 export default function AboutPage() {
