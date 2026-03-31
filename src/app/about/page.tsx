@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 const qualifications = [
   {
     title: "Bachelor of Education (Senior Phase and FET)",
-    detail: "Cum Laude — University of Pretoria, 2018–2021",
+    detail: "University of Pretoria, 2018–2021 (Cum Laude)",
   },
   {
     title: "Honours in Educational Psychology",
-    detail: "Cum Laude — University of Pretoria, 2022",
+    detail: "University of Pretoria, 2022 (Cum Laude)",
   },
   {
     title: "Master's in Educational Psychology",
