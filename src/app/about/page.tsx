@@ -69,11 +69,11 @@ export default function AboutPage() {
             <div className="flex-shrink-0">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blush/30 shadow-xl">
                 <Image
-                  src="/images/logo.png"
+                  src="/images/ewanti-profile.jpg"
                   alt="Ewanti Drinkwater"
                   width={320}
                   height={320}
-                  className="w-full h-full object-contain p-8 bg-white"
+                  className="w-full h-full object-cover"
                   priority
                 />
               </div>
